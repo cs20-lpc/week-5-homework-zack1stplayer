@@ -8,15 +8,7 @@ struct Node {
 
 // Floyd's cycle-finding algorithm (Tortoise and Hare)
 bool hasCycle(Node* head) {
-    if (!head) return false;
-    Node* slow = head;
-    Node* fast = head->next;
-    while (fast && fast->next) {
-        if (slow == fast) return true;
-        slow = slow->next;
-        fast = fast->next->next;
-    }
-    return false;
+    // TO DO: Implement your code here. 
 }
 
 // Helper to create a singly linked list with n nodes. Returns head and optionally
