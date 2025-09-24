@@ -8,7 +8,28 @@ struct Node {
 
 // Floyd's cycle-finding algorithm (Tortoise and Hare)
 bool hasCycle(Node* head) {
-    // TO DO: Implement your code here. 
+    Node* tort = head;
+    Node* hare = head;
+    do {
+        if (hare == nullptr || hare->next == nullptr) {
+            return false;
+        }
+        tort = tort->next;
+        hare = hare->next->next;
+    } while (tort != hare);
+    
+    // // Just for fun I'm also gonna find the meeting point b/c the algorithm's description says
+    // // the distance from the meeting point to the loop start is the same as the distance from the head to the loop start
+    // int aggr = 0;
+    // tort = head;
+    // do {
+    //     tort = tort->next;
+    //     hare = hare->next;
+    //     aggr++;
+    // } while (tort != hare);
+    // std::cout << "Loop Start: " << aggr << std::endl;
+
+    return true;
 }
 
 // Helper to create a singly linked list with n nodes. Returns head and optionally

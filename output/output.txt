@@ -1,0 +1,2 @@
+PS C:\Users\zack1\OneDrive\Documents\GitHub\week-5-homework-zack1stplayer>  & 'c:\Users\zack1\.vscode\extensions\ms-vscode.cpptools-1.27.7-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-132mvu52.eob' '--stdout=Microsoft-MIEngine-Out-n2hi4wt3.qhh' '--stderr=Microsoft-MIEngine-Error-ka01d10h.abc' '--pid=Microsoft-MIEngine-Pid-imxvfkvv.jql' '--dbgExe=C:\msys64\ucrt64\bin\gdb.exe' '--interpreter=mi' 
+false true
