@@ -22,11 +22,11 @@ bool hasCycle(Node* head) {
     // // the distance from the meeting point to the loop start is the same as the distance from the head to the loop start
     // int aggr = 0;
     // tort = head;
-    // do {
+    // while (tort != hare) {
     //     tort = tort->next;
     //     hare = hare->next;
     //     aggr++;
-    // } while (tort != hare);
+    // }
     // std::cout << "Loop Start: " << aggr << std::endl;
 
     return true;
